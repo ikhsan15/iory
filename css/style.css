@@ -463,11 +463,33 @@
     color: var(--text-black-600);
   }
   .inispan{
-    /* notactive */
     font-weight: 600;
-    background-color: violet;
   }
   .about-section .about-info .btn-1{
     margin: 30px 20px 0 0;
+  }
+  .about-section .about-tabs{
+    padding: 60px 15px 50px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .about-section .about-tabs .tab-item{
+    display: inline-block;
+    margin: 0 5px 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: var(--text-black-600);
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .about-section .about-tabs .tab-item:hover:not(.active){
+    opacity: 0.6;
+  }
+  .about-section .about-tabs .tab-item.active{
+    color: var(--skin-color);
   }
 /* about section -- end */
