@@ -26,7 +26,7 @@
 
 (() =>{
   const filterContainer = document.querySelector(".portfolio-filter"),
-  portflioItemsContainer = document.querySelector(".portfolio-items"),
+  portfolioItemsContainer = document.querySelector(".portfolio-items"),
   portfolioItems = document.querySelectorAll(".portfolio-item"),
   popup = document.querySelector(".portfolio-popup"),
   prevBtn = popup.querySelector(".pp-prev"),
@@ -55,6 +55,15 @@
           item.classList.add("hide");
         }
       })
+    }
+  })
+
+  portfolioItemsContainer.addEventListener("click", (event) =>{
+    if(event.target.closest(".portfolio-item-inner")){
+      const portfolioItem = event.target.closest(".portfolio-item-inner").parentElement;
+      // get the portfolioItem index
+      itemIndex = Array.from(portfolioItem.parentElement.children).indexOf(portfolioItem);
+      screenshots = portfolioItems[itemIndex].querySelector(".portfolio-item-img img").getAttribute("data-screenshots");
     }
   })
 
