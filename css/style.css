@@ -6,7 +6,11 @@
 /* global setting -- start */
   /* define custom css variables */
   :root{
-    --skin-color: #fb839e;
+    /* --skin-color-1: #fb839e;
+    --skin-color-2: #ec9412;
+    --skin-color-3: #1fc586;
+    --skin-color-4: #2eb1ed;
+    --skin-color-5: #cc3a3b; */
 
     --bg-black-900: #000000;
     --bg-black-100: #dddddd;
