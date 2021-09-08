@@ -75,6 +75,10 @@
     left: -30px;
     right: auto;
   }
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
 }
 
 @media(max-width: 574px){
@@ -83,5 +87,8 @@
   }
   .home-section .home-text h2{
     font-size: 40px;
+  }
+  .footer-col{
+    width: 100%;
   }
 }

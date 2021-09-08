@@ -41,6 +41,21 @@
     --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
     --inner-shadow-0: inset 0 0 0 #222327, inset 0 0 0 #363636;
   }
+  body.dark .footer{
+    --bg-black-900: #000000;
+    --bg-black-100: #dddddd;
+    --bg-black-50: #eff0f4;
+    --bg-opacity: rgba(255, 255, 255, 0.5);
+    --text-black-900: #353535;
+    --text-black-700: #555555;
+    --text-black-600: #666666;
+    --text-black-300: #bbbbbb;
+
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+  }
   body{
     font-size: 16px;
     line-height: 1.5;
@@ -1293,3 +1308,64 @@
   }
 /* contact section -- end */
 
+/* footer -- start */
+  .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--skin-color);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    /* color: #ffffff; */
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: var(--skin-color);
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: var(--skin-color);
+    background-color: #ffffff;
+  }
+/* footer -- end */
