@@ -1356,16 +1356,46 @@
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
     margin: 0 10px 10px 0;
+    /* margin: 3px; */
     text-align: center;
-    line-height: 40px;
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
   }
-  .footer-col .social-links a:hover{
+  /* .footer-col .social-links a:hover{
     color: var(--skin-color);
     background-color: #ffffff;
+  } */
+
+  .footer-col .social-links a span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    line-height: 40px;
+    font-size: 20px;
+    -webkit-transition: transform .5s ease;
+    transition: transform .5s ease;
+  }
+  .footer-col .social-links a span:last-child{
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    background-color: var(--skin-color);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+  }
+  .footer-col .social-links a:hover span:first-child{
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  .footer-col .social-links a:hover span:last-child{
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
   }
 /* footer -- end */
