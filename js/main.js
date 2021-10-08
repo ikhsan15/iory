@@ -298,15 +298,15 @@ function bodyScrollingToggle(){
 })();
 
 // hide all sections except active
-(() =>{
-  const sections = document.querySelectorAll(".section");
-  sections.forEach((sections) =>{
-    if(!sections.classList.contains("active")){
-      sections.classList.add("hide");
-    }
-  })
+// (() =>{
+//   const sections = document.querySelectorAll(".section");
+//   sections.forEach((sections) =>{
+//     if(!sections.classList.contains("active")){
+//       sections.classList.add("hide");
+//     }
+//   })
 
-})();
+// })();
 
 window.addEventListener("load", () =>{
   // preloader
