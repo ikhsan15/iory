@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
 	<div class="container">          
-		<a class="navbar-brand" href="index.html"><span class="lni-bulb"></span>ESSENCE</a>
+		<a class="navbar-brand" href="<?php echo base_url(); ?>"><span class="lni-bulb"></span>ESSENCE</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="lni-menu"></i>
 		</button>

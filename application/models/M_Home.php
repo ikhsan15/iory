@@ -37,3 +37,4 @@ class M_Home extends CI_Model {
     return $list;
   }
 
+}

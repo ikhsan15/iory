@@ -65,9 +65,9 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Our Services</h2>
+          <h2 class="section-title">Creative & Tech Services</h2>
           <span>Services</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+          <p class="section-subtitle">Transforming Ideas into Reality Through Innovation and Design.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 col-xs-12">
@@ -76,7 +76,8 @@
                 <i class="lni-pencil"></i>
               </div>
               <h4>Content Writing</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>Creating engaging written content for various platforms.</p>
+              <br>
               <a href="<?php echo base_url().$class;?>/article" class="small-box-footer">Learn More</a>
             </div>
           </div>
@@ -85,8 +86,10 @@
               <div class="icon color-2">
                 <i class="lni-cog"></i>
               </div>
-              <h4>Web Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <h4>IT Development</h4>
+              <p>Developing customized IT solutions and websites.</p>
+              <br>
+              <a href="<?php echo base_url().$class;?>/itdev" class="small-box-footer">Learn More</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
@@ -95,7 +98,9 @@
                 <i class="lni-stats-up"></i>
               </div>
               <h4>Graphic Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>Designing creative visuals for branding and promotion.</p>
+              <br>
+              <a href="<?php echo base_url().$class;?>/design" class="small-box-footer">Learn More</a>
             </div>
           </div>
           <!-- <div class="col-lg-4 col-md-6 col-xs-12">
@@ -129,60 +134,6 @@
       </div>
     </section>
     <!-- Services Section End -->
-
-    <!-- Start Pricing Table Section -->
-    <div id="pricing" class="section pricing-section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Our Services</h2>
-          <span>Services</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-        </div>        
-        <div class="row article-more">
-          <!-- partial:index.partial.html -->
-          <div class="grid gap-6 grid-cols-3">
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Microservices Orchestration</div>
-                <p class="flex-grow mb-2">Temporal is a perfect fit for orchestrating microservices.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Financial Transactions</div>
-                <p class="flex-grow mb-2">For software that interacts with money (especially someone else's), reliability and consistency are top priorities.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Resource Provisioning</div>
-                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Monitoring</div>
-                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Resource Provisioning</div>
-                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Monitoring</div>
-                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <!-- partial -->
-        </div>
-      </div>
-    </div>
-    <!-- End Pricing Table Section -->
 
     <!-- Blog Section -->
     <section id="blog" class="section">
@@ -386,7 +337,7 @@
         <div class="row">
           <div class="ourteam col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team1.png'); ?>" alt="">
+              <img src="<?php echo base_url('/assets/img/team/ikhsan_01.png'); ?>" alt="">
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Ikhsan Nur</h4>

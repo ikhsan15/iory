@@ -1278,6 +1278,9 @@ button:focus {
 	transform: scale(1.1);
 }
 
+/* ==========================================================================
+	v_article
+	========================================================================== */
 .item:hover {
 	--expand: 1;
 }
@@ -1314,20 +1317,10 @@ a .btn-lm {
 
 .row.article-more {
 	position: relative;
-	height: 90vh;
+	height: 60vh;
 	display: flex;
 	justify-content: center; /* Horizontal centering */
 	align-items: center; /* Vertical centering */
-}
-
-.grid {
-	display: grid;
-	gap: 1.5rem; /* Atur jarak antar elemen grid */
-	grid-template-columns: repeat(
-		auto-fit,
-		minmax(200px, 1fr)
-	); /* Responsif untuk kolom */
-	padding: 0 1rem;
 }
 
 /* .grid {
@@ -1335,6 +1328,12 @@ a .btn-lm {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+} */
+
+/* .grid-boxes {
+	webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 } */
 
 .featured-bg {
@@ -1397,6 +1396,82 @@ a .btn-lm {
 	color: #0085a1;
 }
 
+/* ==========================================================================
+   Vertical Text
+   ========================================================================== */
+/* Vertical text styling */
+.vertical-text {
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+	font-size: 90px;
+	font-weight: bold;
+	background-color: #ca4246;
+	background-image: linear-gradient(
+		45deg,
+		#ffeb3b 16.666%,
+		#ff9800 16.666%,
+		#ff5722 33.333%,
+		#f44336 33.333%,
+		#e91e63 50%,
+		#9c27b0 50%,
+		#673ab7 66.666%,
+		#3f51b5 66.666%,
+		#2196f3 83.333%,
+		#00bcd4 83.333%
+	);
+	background-size: 200% 200%;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient-animation 3s ease infinite;
+	display: block;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* flickity styling */
+.flickity-slider {
+	display: flex;
+	align-items: center;
+}
+
+.section-vertical {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f4;
+	position: relative;
+}
+
+.timeline {
+	padding: 20px;
+}
+
+.timeline-container {
+	margin-bottom: 20px;
+}
+
+.timeline-title {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.timeline-subtitle {
+	font-size: 0.9rem;
+	color: gray;
+}
 /* ==========================================================================
 	Timeline article
 	========================================================================== */
@@ -1567,7 +1642,6 @@ a .btn-lm {
 .author .btn:visited:active {
 	background-color: #1a1a1a;
 }
-
 /* ==========================================================================
    Featured Section Start
    ========================================================================== */
