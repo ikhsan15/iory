@@ -4,7 +4,10 @@
 <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="author" content="Grayrids">
-<title>Essence - Bootstrap 4 Template</title>
+<title>IORY</title>
+
+<!-- favicon -->
+<link rel="icon" type="image/png" href="<?php echo base_url('/assets/img/logo/iory_white.png');?>">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css'); ?>">
