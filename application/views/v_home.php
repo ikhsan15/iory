@@ -139,9 +139,9 @@
     <section id="features" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Why Choose Us</h2>
+          <h2 class="section-title">What I Do</h2>
           <span>Why</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
+          <p class="section-subtitle">Explore the best services to bring your ideas and needs to life.</p>
         </div>
         <div class="row">
           <!-- Start featured -->
@@ -152,8 +152,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-layout"></i></div>
-                <h4>Refreshing Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>Content Writing</h4>
+                <p>Creating engaging and relevant content for articles, blogs, and marketing needs.
+                Turning ideas into words that captivate and engage your audience.</p>
               </div>
             </div>
           </div>
@@ -166,8 +167,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-tab"></i></div>
-                <h4>Fully Responsive</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>Web & IT Solutions</h4>
+                <p>Developing responsive websites and providing technical support for your IT needs.
+                Offering effective solutions to enhance your digital performance and transformation.</p>
               </div>
             </div>
           </div>
@@ -180,8 +182,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-rocket"></i></div>
-                <h4>Fast & Smooth</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>Graphic Design</h4>
+                <p>Designing creative visuals to build a strong and engaging brand identity.
+                  Helping your brand shine with functional and aesthetic designs.</p>
               </div>
             </div>
           </div>
@@ -194,8 +197,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-database"></i></div>
-                <h4>SEO Optimized</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>Creative Problem Solving</h4>
+                <p>Finding innovative solutions to complex challenges with a creative approach.
+                Solving problems with fresh ideas that drive positive change.</p>
               </div>
             </div>
           </div>
@@ -208,8 +212,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-leaf"></i></div>
-                <h4>Clean Code</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>Data Management</h4>
+                <p>Organizing and managing data efficiently to support decision-making.
+                Ensuring your data is well-structured and easily accessible.</p>
               </div>
             </div>
           </div>
@@ -222,8 +227,9 @@
               </div>
               <div class="featured-content">
                 <div class="icon-o"><i class="lni-pencil"></i></div>
-                <h4>Free 24/7 Support</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+                <h4>IT Infrastructure Management</h4>
+                <p>Providing reliable IT infrastructure management to ensure smooth operations.
+                Enhancing system efficiency and minimizing downtime with proactive maintenance.</p>
               </div>
             </div>
           </div>
@@ -233,169 +239,60 @@
     </section>
     <!-- Features Section End --> 
 
-    <!-- Portfolio Section -->
-    <section id="portfolios" class="section">
-      <!-- Container Starts -->
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Our Works</h2>
-          <span>Works</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
-        </div>
-        <div class="row">          
-          <div class="col-md-12">
-            <!-- Portfolio Controller/Buttons -->
-            <div class="controls text-center">
-              <a class="filter active btn btn-common btn-effect" data-filter="all">
-                All 
-              </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".design">
-                Design 
-              </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".development">
-                Development
-              </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".print">
-                Print 
-              </a>
-            </div>
-            <!-- Portfolio Controller/Buttons Ends-->
-          </div>
-        </div>
-
-        <!-- Portfolio Recent Projects -->
-        <div id="portfolio" class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>" alt="" /> 
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>" alt="" /> 
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Container Ends -->
-    </section>
-    <!-- Portfolio Section Ends --> 
-  
     <!-- Clients Section -->
     <div id="clients" class="section">
-      <!-- Container Ends -->
       <div class="container">
-        <!-- Row and Scroller Wrapper Starts -->
-        <div class="row" id="clients-scroller">
+        <div class="clients-carousel" data-flickity='{ "autoPlay": 1500, "friction": 0.15, "selectedAttraction": 0.01, "wrapAround": true, "draggable": false, "prevNextButtons": false, "pageDots": false }'>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img1.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/php.png'); ?>" alt="PHP">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img2.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/codeigniter.png'); ?>" alt="CodeIgniter">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img3.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/git.png'); ?>" alt="Git">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img4.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/github.png'); ?>" alt="GitHub">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img5.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/postgre.png'); ?>" alt="PostgreSQL">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img6.png'); ?>" alt="">
+            <img src="<?php echo base_url('/assets/img/clients/vscode.png'); ?>" alt="VS Code">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/whimsical.png'); ?>" alt="Whimsical">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/zoom.png'); ?>" alt="Zoom">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/audacity.png'); ?>" alt="Audacity">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/figma.png'); ?>" alt="Figma">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/illustrator.png'); ?>" alt="Illustrator">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/indesign.png'); ?>" alt="InDesign">
+          </div>          
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/html.png'); ?>" alt="Html">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/css.png'); ?>" alt="Css">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/javascript.png'); ?>" alt="Javascript">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/cpanel.png'); ?>" alt="Cpanel">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/firebase.png'); ?>" alt="Firebase">
           </div>
         </div>
       </div>
@@ -482,19 +379,20 @@
         </div>
       </div>
     </section>
-    <!-- Team section End -->   
+    <!-- Team section End -->
 
     <!-- Call To Action Section Start -->
     <section id="cta" class="section" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">            
+          <div class="col-lg-4 col-md-4 col-xs-12">            
             <div class="cta-text">
-              <h5>Stil confused? Download a free lite version to get started!</h5>
+              <h1>Let's Collaborate!</h1>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-xs-12 text-right">
-            <a href="#" class="btn btn-border">Download</a>
+          <div class="col-lg-8 col-md-8 col-xs-12 text-right">
+            <h5>I believe every idea has the potential to become extraordinary.<br>
+              Contact me to collaborate or learn more about what I can do.</h5>
           </div>
         </div>
       </div>

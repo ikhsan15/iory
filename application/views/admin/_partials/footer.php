@@ -9,9 +9,9 @@
             <p>Inspired by Ikhsan's Story.</p>
           </div>
           <ul class="footer-social">
-            <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+            <li><a class="github" href="https://github.com/ikhsan15" target="__blank"><i class="fab fa-github"></i></a></li>
             <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+            <li><a class="linkedin" href="https://linkedin.com/in/ikhsannur" target="__blank"><i class="lni-linkedin-fill"></i></a></li>
             <!-- <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li> -->
           </ul> 
         </div>
@@ -19,11 +19,10 @@
           <div class="widget">
             <h3 class="block-title">Short Link</h3>
             <ul class="menu">
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Wishlist</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Advance Sarch</a></li>
-              <li><a href="#">Site Map</a></li>
+              <li><a href="https://ikhsan-nur.iory.my.id/" target="__blank">About Me</a></li>
+              <li><a href="https://ikhsan-nur.iory.my.id/webapp.html" target="__blank">Web Application</a></li>
+              <li><a href="https://ikhsan-nur.iory.my.id/suppdesk.html" target="__blank">Helpdesk & Support</a></li>
+              <li><a href="https://ikhsan-nur.iory.my.id/design.html" target="__blank">Design</a></li>
             </ul>
           </div>
         </div>

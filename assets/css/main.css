@@ -969,6 +969,12 @@ button:focus {
 	display: none;
 }
 
+.client-item-wrapper img {
+	width: 100%;
+	height: 100px;
+	object-fit: contain;
+}
+
 /* ==========================================================================
     call to action
    ========================================================================== */
@@ -977,11 +983,18 @@ button:focus {
 	background-size: cover;
 }
 
+#cta h1 {
+	color: #fff;
+	font-size: 42px;
+	font-weight: 500;
+	line-height: 52px;
+}
+
 #cta h5 {
 	color: #fff;
-	font-size: 32px;
-	font-weight: 500;
-	line-height: 48px;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 38px;
 }
 
 #cta .btn {

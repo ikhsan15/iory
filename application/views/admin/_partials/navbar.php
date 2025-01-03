@@ -16,9 +16,6 @@
 				</li>  
 				<li class="nav-item">
 					<a class="nav-link page-scroll" href="#features">Features</a>
-				</li>                            
-				<li class="nav-item">
-					<a class="nav-link page-scroll" href="#portfolios">Works</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link page-scroll" href="#team">Team</a>
