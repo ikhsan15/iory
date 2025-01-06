@@ -31,19 +31,19 @@
             <div class="carousel-item">
               <img src="<?php echo base_url('/assets/img/slider/bg-6.jpg'); ?>" alt="">
               <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Bundled With Tons of</h3>
-                <h2 class="wow bounceIn" data-wow-delay="0.6s">Cutting-edge Features</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.9s">Parallax, Video, Product, Premium Addons and More...</h4>
-                <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="1.2s">View Works</a>
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Imagination Unleashed</h3>
+                <h2 class="wow bounceIn" data-wow-delay="0.6s">Distinctive Art</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.9s">Bringing Ideas to Life</h4>
+                <!-- <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="1.2s">View Works</a> -->
               </div>
             </div>
             <div class="carousel-item">
               <img src="<?php echo base_url('/assets/img/slider/bg-8.jpg'); ?>" alt="">
               <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Ready For</h3>
-                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Multi-purpose Websites</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.6s">App, Business, SaaS and Landing Pages</h4>
-                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Purchase</a>
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Empowering Innovation</h3>
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Seamless Solutions</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Designed for Your Success</h4>
+                <!-- <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Purchase</a> -->
               </div>
             </div>
           </div>

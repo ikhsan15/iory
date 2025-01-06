@@ -39,63 +39,15 @@ class Home extends CI_Controller{
     $data['method']				= $this->router->fetch_method();
     $data['rNum']					= $rNum;
 
-    $this->load->view('article/v_article', $data);
+		$article_title    		= '';
+		$article_content    	= '';
+
+		$data['article_title'] 			= $article_title;
+		$data['article_content'] 		= $article_content;
+
+		$data['rec_article']		= $this->db->query("SELECT * FROM public.article ORDER BY article_id DESC")->result();
+		$this->load->view('article/v_article', $data);
 	}
-
-	function a_poetry() {
-    $data['judul']				= $judul;
-    $data['current_url']	= current_url();
-    $data['class']				= $this->router->fetch_class();
-    $data['method']				= $this->router->fetch_method();
-    $data['rNum']					= $rNum;
-
-		$ww_title    		= '';
-		$ww_content    	= '';
-
-		$data['ww_title'] 			= $ww_title;
-		$data['ww_content'] 		= $ww_content;
-
-		$data['rec_poetry']			= $this->db->query("SELECT * FROM public.poetry ORDER BY poe_id DESC")->result();
-
-    $this->load->view('article/v_poetry', $data);
-	}
-
-	function a_story() {
-    $data['judul']				= $judul;
-    $data['current_url']	= current_url();
-    $data['class']				= $this->router->fetch_class();
-    $data['method']				= $this->router->fetch_method();
-    $data['rNum']					= $rNum;
-
-		$ww_title    		= '';
-		$ww_content    	= '';
-
-		$data['ww_title'] 			= $ww_title;
-		$data['ww_content'] 		= $ww_content;
-
-		$data['rec_story']			= $this->db->query("SELECT * FROM public.story ORDER BY st_id DESC")->result();
-
-    $this->load->view('article/v_story', $data);
-	}
-
-	function a_wiseword() {
-    $data['judul']				= $judul;
-    $data['current_url']	= current_url();
-    $data['class']				= $this->router->fetch_class();
-    $data['method']				= $this->router->fetch_method();
-    $data['rNum']					= $rNum;
-
-		$ww_title    		= '';
-		$ww_content    	= '';
-
-		$data['ww_title'] 			= $ww_title;
-		$data['ww_content'] 		= $ww_content;
-
-		$data['rec_wiseword']		= $this->db->query("SELECT * FROM public.wiseword ORDER BY ww_id DESC")->result();
-
-    $this->load->view('article/v_wiseword', $data);
-	}
-
 
   function cpu($mode = '', $cpu_id = 0) {
     $rNum = $this->input->get('rNum');

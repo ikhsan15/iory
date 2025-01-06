@@ -1412,10 +1412,19 @@ a .btn-lm {
 /* ==========================================================================
    Vertical Text
    ========================================================================== */
-/* Vertical text styling */
+.section-vertical {
+	display: grid;
+	grid-template-columns: auto 1fr; /* Kolom pertama untuk .vertical-text, kedua untuk konten */
+	align-items: start; /* Konten sejajar di bagian atas */
+	min-height: 100vh;
+	width: 100vw; /* Lebar mengikuti lebar layar */
+	overflow: hidden; /* Menjaga agar konten tidak meluap */
+}
+
 .vertical-text {
-	top: 50%;
-	transform: translateY(-50%) rotate(-90deg);
+	position: sticky; /* Tetap di posisi tertentu */
+	top: 200px; /* Jarak dari atas */
+	transform: rotate(-90deg);
 	font-size: 90px;
 	font-weight: bold;
 	background-color: #ca4246;
@@ -1433,39 +1442,9 @@ a .btn-lm {
 		#00bcd4 83.333%
 	);
 	background-size: 200% 200%;
-	background-attachment: fixed;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: gradient-animation 3s ease infinite;
-	display: block;
-}
-
-@keyframes gradient-animation {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-/* flickity styling */
-.flickity-slider {
-	display: flex;
-	align-items: center;
-}
-
-.section-vertical {
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #f4f4f4;
-	position: relative;
 }
 
 .timeline {
@@ -1474,6 +1453,10 @@ a .btn-lm {
 
 .timeline-container {
 	margin-bottom: 20px;
+}
+
+.timeline-body {
+	margin-top: 0; /* Pastikan margin atas sesuai dengan .vertical-text */
 }
 
 .timeline-title {
@@ -1485,6 +1468,7 @@ a .btn-lm {
 	font-size: 0.9rem;
 	color: gray;
 }
+
 /* ==========================================================================
 	Timeline article
 	========================================================================== */
