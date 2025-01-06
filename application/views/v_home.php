@@ -305,7 +305,7 @@
         <div class="section-header">          
           <h2 class="section-title">Our Team</h2>
           <span>Team</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
+          <p class="section-subtitle">A dynamic team of experts committed to transforming ideas into impactful solutions.</p>
         </div>
         <div class="row">
           <div class="ourteam col-lg-3 col-md-6 col-xs-12">
