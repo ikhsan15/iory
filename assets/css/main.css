@@ -420,7 +420,7 @@ button:focus {
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	background: #0085a1;
+	/* background: #0085a1; */
 	opacity: 0.5;
 	filter: alpha(opacity=80);
 }
@@ -2724,4 +2724,278 @@ footer .menu li a:hover {
 .counter-item .fact-count h4 {
 	font-size: 18px;
 	margin-bottom: 0;
+}
+
+/* ==========================================================================
+   colorlib Style
+   ========================================================================== */
+#colorlib-services,
+#colorlib-contact,
+#colorlib-work,
+#colorlib-study,
+#colorlib-portfolio,
+#colorlib-blog,
+#colorlib-testimony,
+#colorlib-progress,
+#colorlib-contact,
+#colorlib-about {
+	padding: 10em 0;
+	clear: both;
+	position: relative;
+}
+
+@media screen and (max-width: 768px) {
+	#colorlib-services,
+	#colorlib-contact,
+	#colorlib-work,
+	#colorlib-porto-det,
+	#colorlib-study,
+	#colorlib-portfolio,
+	#colorlib-blog,
+	#colorlib-testimony,
+	#colorlib-progress,
+	#colorlib-contact,
+	#colorlib-about {
+		padding: 5em 0;
+	}
+}
+
+#colorlib-blog .owl-carousel {
+	z-index: 0;
+}
+
+#colorlib-blog .owl-carousel .owl-stage-outer {
+	z-index: -1;
+}
+
+#colorlib-blog .owl-theme .owl-controls {
+	margin-top: -10px;
+	z-index: 1;
+	position: absolute;
+	top: -40px;
+	left: 0;
+	right: 0;
+	margin-top: -30px;
+}
+
+#colorlib-blog .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	border-radius: 1px;
+	background: transparent;
+	background: #fff;
+	padding: 5px 5px;
+	opacity: 1;
+}
+
+#colorlib-blog
+	.owl-theme
+	.owl-controls
+	.owl-nav
+	[class*="owl-"]
+	.owl-direction {
+	background: transparent;
+	color: #000;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
+.article {
+	display: block;
+	/* margin-bottom: 6em; */
+	margin-bottom: 30px;
+}
+
+.article .blog-img {
+	margin-bottom: 50px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.article .blog-img img {
+	position: relative;
+	max-width: 100%;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+
+.article .blog-img .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.article .blog-img .link {
+	position: absolute;
+	bottom: 0;
+	left: 90%;
+	display: table;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+
+.article .blog-img .link .read {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "Karla", Arial, sans-serif;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transform-origin: 0;
+	-ms-transform-origin: 0;
+	transform-origin: 0;
+	position: relative;
+}
+
+.article .blog-img .link .read:after {
+	position: absolute;
+	top: 10px;
+	left: -50px;
+	content: "";
+	background: #fff;
+	width: 40px;
+	height: 1px;
+}
+
+.article .blog-img:hover .overlay {
+	opacity: 1;
+}
+
+.article .blog-img:hover .link {
+	opacity: 1;
+	bottom: 50px;
+}
+
+.article .blog-img:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.article .desc {
+	position: relative;
+}
+
+.article .desc .meta {
+	position: absolute;
+	top: -80px;
+	left: 20px;
+	background: #ffe9e3;
+	color: #000;
+	padding: 20px 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	-webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+	-moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+	-ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+	-o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+	box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+}
+
+.article .desc h2 {
+	font-size: 24px;
+}
+
+.article .desc h2 a {
+	text-decoration: none;
+	color: #000;
+	line-height: 1.2;
+	font-size: 20px;
+}
+
+.article:hover .meta {
+	background: #fff;
+}
+
+.animated-box {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.8s ease-out;
+}
+
+.animated-box.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Flexbox untuk memastikan tinggi elemen seragam */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; /* Rata spasi antar kolom */
+}
+
+.col-md-4 {
+	display: flex;
+	flex-direction: column; /* Pastikan fleksibilitas konten diatur secara vertikal */
+	margin-bottom: 20px; /* Tambahkan jarak antar kolom */
+}
+
+.article {
+	flex: 1; /* Membuat tinggi elemen seragam */
+	display: flex;
+	flex-direction: column; /* Untuk memastikan deskripsi dan konten mengikuti arah vertikal */
+}
+
+.desc {
+	/* flex: 1; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* Distribusikan konten secara merata */
+}
+
+/* Membatasi panjang konten artikel */
+.desc p {
+	max-height: 150px; /* Batas maksimal tinggi konten */
+	overflow: hidden; /* Sembunyikan teks berlebih */
+	text-overflow: ellipsis; /* Tambahkan tiga titik di akhir teks */
+	display: -webkit-box; /* Gunakan fitur klip */
+	-webkit-line-clamp: 4; /* Batasi jumlah baris */
+	-webkit-box-orient: vertical;
+}
+
+/* Pastikan gambar responsif */
+.blog-img img {
+	width: 100%;
+	height: auto;
+}
+
+/* Jarak antar kolom menggunakan gutter */
+.row.g-3 {
+	gap: 16px; /* Jarak antar elemen kolom */
 }

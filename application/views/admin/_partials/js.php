@@ -33,4 +33,13 @@
     selectedAttraction: 0.01,
     friction: 0.15,
   });
+
+  $(document).ready(function () {
+  $(".animated-box").each(function (index, element) {
+    setTimeout(function () {
+      $(element).addClass("visible");
+    }, index * 200); // Delay bertahap berdasarkan indeks
+  });
+});
+
 </script>
