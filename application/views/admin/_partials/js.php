@@ -35,11 +35,28 @@
   });
 
   $(document).ready(function () {
-  $(".animated-box").each(function (index, element) {
-    setTimeout(function () {
-      $(element).addClass("visible");
-    }, index * 200); // Delay bertahap berdasarkan indeks
+    $(".animated-box").each(function (index, element) {
+      setTimeout(function () {
+        $(element).addClass("visible");
+      }, index * 200); // Delay bertahap berdasarkan indeks
+    });
+
+    $('.article').on('click', function() {
+      // Ambil konten dari elemen yang diklik
+      const content = $(this).html();
+      // Masukkan konten ke dalam pop-up
+      $('.popup-data').html(content);
+      // Tampilkan overlay pop-up
+      $('.popup-overlay').fadeIn();
+    });
+
+    // Event untuk menutup pop-up
+    $('.close-btn, .popup-overlay').on('click', function(e) {
+      // Pastikan hanya menutup jika klik pada overlay atau tombol close
+      if ($(e.target).hasClass('close-btn') || $(e.target).hasClass('popup-overlay')) {
+        $('.popup-overlay').fadeOut();
+      }
+    });
   });
-});
 
 </script>

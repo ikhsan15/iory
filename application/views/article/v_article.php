@@ -77,7 +77,7 @@
         ?>
             <div class="col-md-4">
               <div class="article animated-box">
-                <a href="blog.html" class="blog-img">
+                <a href="#" class="blog-img">
                   <img class="img-responsive" src="<?php echo $imagePath; ?>" alt="Blog Image">
                   <div class="overlay"></div>
                   <div class="link">
@@ -86,7 +86,7 @@
                 </a>
                 <div class="desc">
                   <span class="meta"><?php echo $formattedDate; ?></span>
-                  <h2><a href="blog.html"><?php echo htmlspecialchars($record->article_title); ?></a></h2>
+                  <h2><a href="#"><?php echo htmlspecialchars($record->article_title); ?></a></h2>
                   <p><?php echo nl2br($record->article_content); ?></p>
                 </div>
               </div>
@@ -106,6 +106,12 @@
     </div>
   </div>
 
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <div class="popup-data"></div>
+    </div>
+  </div>
+
   <!-- Footer Section Start -->
   <?php $this->load->view("admin/_partials/footer.php") ?>
   <!-- Footer Section End -->
@@ -116,5 +122,6 @@
   </a>
 
   <?php $this->load->view("admin/_partials/js.php") ?>
+
 </body>
 </html>

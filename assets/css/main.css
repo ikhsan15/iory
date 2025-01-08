@@ -1449,6 +1449,10 @@ a .btn-lm {
 
 .timeline {
 	padding: 20px;
+	position: relative;
+	padding-left: 4rem;
+	margin: 0 0 0 30px;
+	color: white;
 }
 
 .timeline-container {
@@ -1500,12 +1504,6 @@ a .btn-lm {
 	color: #ffffff;
 }
 
-.timeline {
-	position: relative;
-	padding-left: 4rem;
-	margin: 0 0 0 30px;
-	color: white;
-}
 .timeline:before {
 	content: "";
 	position: absolute;
@@ -2806,8 +2804,9 @@ footer .menu li a:hover {
 }
 
 .article {
-	display: block;
-	/* margin-bottom: 6em; */
+	flex: 1; /* Membuat tinggi elemen seragam */
+	display: flex;
+	flex-direction: column; /* Untuk memastikan deskripsi dan konten mengikuti arah vertikal */
 	margin-bottom: 30px;
 }
 
@@ -2966,12 +2965,6 @@ footer .menu li a:hover {
 	margin-bottom: 20px; /* Tambahkan jarak antar kolom */
 }
 
-.article {
-	flex: 1; /* Membuat tinggi elemen seragam */
-	display: flex;
-	flex-direction: column; /* Untuk memastikan deskripsi dan konten mengikuti arah vertikal */
-}
-
 .desc {
 	/* flex: 1; */
 	display: flex;
@@ -2985,7 +2978,7 @@ footer .menu li a:hover {
 	overflow: hidden; /* Sembunyikan teks berlebih */
 	text-overflow: ellipsis; /* Tambahkan tiga titik di akhir teks */
 	display: -webkit-box; /* Gunakan fitur klip */
-	-webkit-line-clamp: 4; /* Batasi jumlah baris */
+	-webkit-line-clamp: 3; /* Batasi jumlah baris */
 	-webkit-box-orient: vertical;
 }
 
@@ -2998,4 +2991,61 @@ footer .menu li a:hover {
 /* Jarak antar kolom menggunakan gutter */
 .row.g-3 {
 	gap: 16px; /* Jarak antar elemen kolom */
+}
+
+/* ==========================================================================
+   popup colorlib Style
+   ========================================================================== */
+.popup-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+.popup-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 80%;
+	max-height: 80%;
+	overflow-y: auto;
+}
+
+.popup-content .desc p {
+	-webkit-line-clamp: unset; /* Nonaktifkan batas baris */
+	max-height: none; /* Hilangkan batas maksimal tinggi */
+	overflow: visible; /* Tampilkan semua konten */
+}
+
+.popup-data .link {
+	display: none; /* Sembunyikan elemen dengan class "link" di dalam pop-up */
+}
+
+.popup-data h2 {
+	font-size: 24px;
+}
+
+.popup-data h2 a {
+	text-decoration: none;
+	color: #000;
+	line-height: 1.2;
+	font-size: 20px;
+}
+
+.popup-data h2,
+.popup-data p {
+	text-align: center;
+}
+
+.popup-data span {
+	text-align: right;
 }
