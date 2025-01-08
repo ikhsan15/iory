@@ -12,9 +12,9 @@
   <section id="services" class="section">
     <div class="container">
       <div class="section-header">          
-        <h2 class="section-title">BLOG</h2>
-        <span>Blog</span>
-        <p class="section-subtitle">Read Our Case</p>
+        <h2 class="section-title">A space for inspiration</h2>
+        <span>My Blog</span>
+        <p class="section-subtitle">Discover stories, ideas, and creative expressions</p>
       </div>
     </div>
   </section>
