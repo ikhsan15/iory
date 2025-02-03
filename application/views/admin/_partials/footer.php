@@ -42,7 +42,7 @@
             </ul> 
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+        <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
           <div class="widget">
             <h3 class="block-title">Instagram</h3>
             <ul class="instagram-footer">
@@ -54,7 +54,7 @@
               <li><a href="#"><img src="img/instagram/insta6.jpg" alt=""></a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

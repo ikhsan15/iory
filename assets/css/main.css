@@ -90,6 +90,24 @@ a:not([href]):not([tabindex]):hover {
 	padding: 80px 0;
 }
 
+@media (max-width: 425px) {
+	#services.section {
+		padding: 30px 0 10px 0;
+	}
+	#articles.section {
+		padding: 100px 0 10px 0;
+	}
+	#cta.section {
+		padding: 20px 0 20px 0;
+	}
+	#features.section {
+		padding: 20px 0 20px 0;
+	}
+	#team.section {
+		padding: 20px 0 20px 0;
+	}
+}
+
 .section-header {
 	color: #fff;
 	margin-bottom: 40px;
@@ -425,6 +443,14 @@ button:focus {
 	filter: alpha(opacity=80);
 }
 
+@media (max-width: 425px) {
+	.overlay {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
@@ -498,6 +524,12 @@ button:focus {
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 	z-index: 999;
 	padding: 5px;
+}
+
+@media (max-width: 425px) {
+	.bg-white {
+		padding: 1px;
+	}
 }
 
 .bg-white .menu-button {
@@ -990,11 +1022,23 @@ button:focus {
 	line-height: 52px;
 }
 
+@media (max-width: 425px) {
+	#cta h1 {
+		font-size: 38px;
+	}
+}
+
 #cta h5 {
 	color: #fff;
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 38px;
+}
+
+@media (max-width: 425px) {
+	#cta h5 {
+		font-size: 14px;
+	}
 }
 
 #cta .btn {
@@ -1204,6 +1248,13 @@ button:focus {
 	-moz-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 425px) {
+	.services-item {
+		padding: 10px 10px;
+		margin-bottom: 0;
+	}
 }
 
 .services-item .icon {
@@ -1723,6 +1774,15 @@ a .btn-lm {
 	width: 100%;
 }
 
+@media (max-width: 425px) {
+	.single-team img {
+		max-width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .single-team .team-inner {
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
@@ -1964,6 +2024,13 @@ a .btn-lm {
 	justify-content: center;
 	align-items: center;
 	height: 100vh; /* Sesuaikan tinggi */
+}
+
+@media (max-width: 425px) {
+	.carousel-item.active {
+		height: 45vh;
+		margin-top: 75px;
+	}
 }
 
 .carousel-item.active img {
@@ -2517,10 +2584,16 @@ textarea {
 	position: relative;
 }
 
-footer .footer-Content {
+.footer-Content {
 	background-color: #ffffff;
 	padding: 60px 0;
 	color: #546e7a;
+}
+
+@media (max-width: 425px) {
+	.footer-Content {
+		padding: 60px 0 10px 0;
+	}
 }
 
 .textwidget {
@@ -2742,7 +2815,7 @@ footer .menu li a:hover {
 	position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	#colorlib-services,
 	#colorlib-contact,
 	#colorlib-work,
@@ -2829,6 +2902,14 @@ footer .menu li a:hover {
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
 	transition: 0.7s;
+}
+
+@media (max-width: 425px) {
+	.article .blog-img img {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 .article .blog-img .overlay {
@@ -3048,4 +3129,10 @@ footer .menu li a:hover {
 
 .popup-data span {
 	text-align: right;
+}
+
+.popup-data img {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 }

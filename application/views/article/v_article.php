@@ -9,7 +9,7 @@
     <?php $this->load->view("admin/_partials/nav_to_home.php") ?>
   </header>
   
-  <section id="services" class="section">
+  <section id="articles" class="section">
     <div class="container">
       <div class="section-header">          
         <h2 class="section-title">A space for inspiration</h2>
