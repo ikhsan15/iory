@@ -33,9 +33,9 @@
               <li>
                 <strong>Address :</strong> <span>Riau, Indonesia</span>
               </li>
-              <li>
+              <!-- <li>
                 <strong>Phone :</strong> <span>+62 xxx yyy zzz</span>
-              </li>
+              </li> -->
               <li>
                 <strong>E-mail :</strong> <span><a href="#">ikhsan15nur@gmail.com</a></span>
               </li>

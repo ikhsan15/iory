@@ -59,4 +59,18 @@
     });
   });
 
+  // YouTube Music Iframe v_article.php
+  document.addEventListener("DOMContentLoaded", function() {
+      const iframe = document.getElementById("yt-music-iframe");
+
+      // Menunggu klik pertama pada body untuk memulai musik
+      document.body.addEventListener("click", function() {
+        console.log("Klik terdeteksi, memulai musik...");
+        let src = iframe.getAttribute("src");
+        if (!src.includes("autoplay=1")) {
+          iframe.setAttribute("src", src + "&autoplay=1");
+        }
+      }, { once: true });
+    });
+
 </script>

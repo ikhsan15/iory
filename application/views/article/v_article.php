@@ -123,5 +123,18 @@
 
   <?php $this->load->view("admin/_partials/js.php") ?>
 
+  <!-- YouTube Music Iframe -->
+  <div id="yt-music-container" style="width: 1px; height: 1px; overflow: hidden;">
+    <iframe 
+      id="yt-music-iframe"
+      width="1" 
+      height="1" 
+      src="https://www.youtube.com/embed/rtOvBOTyX00?loop=1&playlist=rtOvBOTyX00&controls=0&mute=0" 
+      frameborder="0" 
+      allow="autoplay"
+      allowfullscreen>
+    </iframe>
+  </div>
+
 </body>
 </html>
